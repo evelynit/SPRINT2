@@ -1,0 +1,7 @@
+Relaciones:
+Venta - Gafas: Esta es una relación de 1:N (una venta puede tener varias gafas, pero una gafa está en una sola venta)
+Venta - Cliente: Esta es una relación de 1:1 (una venta es realizada a un cliente específico y un cliente tiene una venta específica). 
+Venta - Empleado: Esta es una relación de 1:1 (una venta es realizada por un empleado específico).
+Gafas - Proveedor: Esta es una relación de N:1 (varias gafas pueden ser suministradas por un proveedor, pero una gafa es suministrada por un solo proveedor).
+Cliente - Cliente: Esto representa la relación de un cliente que es recomendado por otro cliente. Esta es una relación de 1:1 (un cliente puede ser recomendado 
+por un cliente) pero debería ser una línea discontinua, ya que no todos los clientes serán recomendados por otros clientes. La columna puede ser NULL.
