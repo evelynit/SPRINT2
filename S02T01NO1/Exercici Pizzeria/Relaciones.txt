@@ -1,0 +1,6 @@
+Cliente-Pedido (1:N): Un cliente puede realizar muchos pedidos, pero un pedido solo puede ser realizado por un único cliente.
+Pedido-Producto (N:M): Un pedido puede estar formado por uno o varios productos y un producto puede ser parte de varios pedidos. Esta relación se gestiona a través de la tabla intermedia Pedido_has_Producto1.
+Producto-Categoria(1:N): Una pizza solo puede estar en una categoría, pero una categoría puede tener muchas pizzas.
+Pedido-Tienda(1:N): Un pedido es gestionado por una única tienda y una tienda puede manejar muchos pedidos.
+Empleado-Tienda(1:N): Un empleado solo puede trabajar en una tienda y en una tienda pueden trabajar muchos empleados.
+Pedido-Empleado(1:1): Para los pedidos de reparto a domicilio interesa guardar quién es el repartidor que hace la entrega.
